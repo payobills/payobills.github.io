@@ -2,53 +2,41 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<link rel="manifest" crossorigin="use-credentials" href="manifest.json" />
+		<link rel="manifest" crossorigin="use-credentials" href="/manifest.json" />
 		<meta name="apple-mobile-web-app-capable" content="yes"/>
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 		<title>Saurav Sahu</title>
 		
-		<link href="./_app/immutable/assets/0.D8GeJHfU.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/2.i1yjbNfb.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.Ch-KXb89.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/pzx0DmJl.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/t4HAjllx.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CG7VwJ5W.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.Didn0FPX.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/hbSGsm1g.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Bz3dIqIh.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.BDRHeAr3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Ij4rGW-j.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.CohymsGw.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.Db7cfxri.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BTjG3GEW.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/CrIqQqpG.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.DyGfdNbt.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DsnmJJEf.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/DFYYQ_tJ.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/BlFh1wX_.js">
 	</head>
 	<body>
-		<div id="app"><!--[--><!--[--><!----><nav class="svelte-w9kzpc"><button class="app-title svelte-w9kzpc">payobills</button></nav><!----> <main class="svelte-fdc9o7"><!----><!----><section class="svelte-vkitot"><p><span class="svelte-vkitot">payobills lite</span> is your go to app to learn about billing and transaction
-    needs, all without sharing your data with third parties.</p></section><!----><!----> <!--[!--><!--]--></main><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
+		<div id="app">
 			<script>
 				{
-					__sveltekit_12goss4 = {
-						base: new URL(".", location).pathname.slice(0, -1)
+					__sveltekit_1bfz3tj = {
+						base: ""
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.Ch-KXb89.js"),
-						import("./_app/immutable/entry/app.Didn0FPX.js")
+						import("/_app/immutable/entry/start.Db7cfxri.js"),
+						import("/_app/immutable/entry/app.DyGfdNbt.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data: [{type:"data",data:null,uses:{}},null],
-							form: null,
-							error: null
-						});
+						kit.start(app, element);
 					});
 
 					if ('serviceWorker' in navigator) {
 						addEventListener('load', function () {
-							navigator.serviceWorker.register('./service-worker.js');
+							navigator.serviceWorker.register('/service-worker.js');
 						});
 					}
 				}
