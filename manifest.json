@@ -1,6 +1,6 @@
 {
-    "short_name": "Payobills",
-    "name": "Payobills",
+    "short_name": "payobills",
+    "name": "payobills",
     "start_url": "/",
     "icons": [
       {
@@ -9,10 +9,10 @@
         "sizes": "512x512"
       }
     ],
-    "background_color": "#1D3459",
+    "background_color": "#696adb",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#1D3459",
+    "theme_color": "#696adb",
     "shortcuts": [],
     "description": "pay your bills on time"
 }
