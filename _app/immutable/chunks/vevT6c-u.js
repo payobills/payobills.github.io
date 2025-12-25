@@ -1,0 +1,1 @@
+import{m as t,w as o}from"./B1x8ai2h.js";const a=async()=>{if(t(n)!==null)return!1;try{const r=await(await fetch("/env")).json();return n.set(r),!0}catch(e){console.error("Failed to load environment vars:",e)}return!1},n=o(null);export{a as t};
